@@ -1,0 +1,14 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "windows": [
+    "notch",
+    "dock",
+    "settings",
+    "hud-left",
+    "hud-right"
+  ],
+  "permissions": [
+    "core:default"
+  ]
+}

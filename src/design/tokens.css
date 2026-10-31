@@ -1,0 +1,31 @@
+/* Petal tasarım belirteçleri. Bileşenler renk, boşluk, köşe ve yazı boyutunu yalnızca buradan alır. */
+:root {
+  /* Boşluk ölçeği */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+
+  /* Köşe ölçeği */
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+
+  /* Yazı rolleri */
+  --font: "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
+  --fs-micro: 10px;
+  --fs-small: 11.5px;
+  --fs-body: 13px;
+  --fs-title: 14px;
+  --fs-clock: 24px;
+
+  /* Hareket süreleri (ms), yay bulunamayan CSS geçişleri için */
+  --t-micro: 120ms;
+  --t-panel: 220ms;
+  --t-large: 320ms;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
